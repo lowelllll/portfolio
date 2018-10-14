@@ -1,0 +1,46 @@
+body {
+    font-family: 'NanumSquare', sans-serif;
+
+}
+nav a:hover {
+    color:#39664e;
+}
+a:hover{
+    text-decoration: none;
+}
+article{
+    width:100%;
+    height:500px;   
+    overflow:auto;
+}
+.intro{
+    background-color: #83b5d1;
+}
+
+.title{
+    text-align:center;
+    display: inline-block;
+    width:95%;
+}
+article span{
+    float:right;
+    font-size:13px;
+}
+
+.project {
+    width:100%;
+
+}
+
+.project li {
+    width:calc(100%/3);
+    height:240px;
+    list-style:none;
+    float:left;
+}
+/* section {
+    width:300px;
+    height:300px;
+    border-radius: 100%;
+    margin-top:100px;
+} */
