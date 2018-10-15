@@ -17,6 +17,18 @@ article{
     background-color: #83b5d1;
 }
 
+/* typing */
+.origin {
+    display: none;
+}
+.text {
+    font-weight: 500;
+    font-size:50px;
+    color:#fff;
+}
+#text {
+    margin-top:160px;
+}
 .title{
     text-align:center;
     display: inline-block;
