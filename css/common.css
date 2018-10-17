@@ -38,7 +38,7 @@ article{
     font-weight: 500;
     font-size:2.25rem;
     color:#fff;
-    margin-top:160px;
+    margin-top:200px;
 }
 
 article span{
@@ -46,26 +46,10 @@ article span{
     font-size:13px;
 }
 
-.project {
-    width:100%;
-}
-
-.project > ul {
-    padding:0;
-}
-
-.project li{
-    width:100%;
-    list-style: none;
-    background-color: #eee;
-    height:200px;
-}
-
 dl {
     font-size: 18px;
-    width: 320px;
+    width: 315px;
     margin-top:30px;
-   
 }
 
 dd{
@@ -76,12 +60,40 @@ dd{
 dt {
     width:30% !important;
 }
+
 h2.name {
     margin-top:30px;
 }
- span{
-    font-size:10px;
+
+
+.project {
+    width:100%;
 }
+
+.project img{
+    width:100%;
+}
+
+.card-img-top {
+    border-bottom:1px solid #eee;
+}
+.card-deck {
+    margin-bottom:50px;
+}
+
+.card-deck a{
+    color:#212529;
+}
+.card:hover{
+    box-shadow: 5px 5px 2px #eee;
+}
+
+.card-title {
+    font-weight: bold;
+    color:#83b5d1;
+}
+
+
 
 .blockquote{
     color:#83b5d1;
@@ -98,6 +110,7 @@ h2.name {
 @media (min-width: 576px) {
     .text {
         font-size:50px;
+        margin-top:160px;
     }
     #introduce img{
         width:300px;
