@@ -77,21 +77,31 @@ h2.name {
 .card-img-top {
     border-bottom:1px solid #eee;
 }
-.card-deck {
-    margin-bottom:50px;
-}
+
 
 .card-deck a{
     color:#212529;
 }
 .card:hover{
     box-shadow: 5px 5px 2px #eee;
+    transition:all 0.3s;
 }
 
+.card:hover .cover{
+    background-color:rgba(0,0,0,0);
+    transition:all 0.3s;
+}
 .card-title {
     font-weight: bold;
     color:#83b5d1;
 }
+
+.cover {
+    width:100%;
+    background-color:rgba(0,0,0,0.3);
+    position:absolute;
+}
+
 
 
 
@@ -127,5 +137,8 @@ h2.name {
     }
     dt, dd {
         width:50%!important;
+    }
+    .card-deck {
+        margin-bottom:50px;
     }
 }
