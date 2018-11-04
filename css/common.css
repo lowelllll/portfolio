@@ -112,10 +112,26 @@ h2.name {
 .title{
     text-align:center;
     display: inline-block;
-    width:95%;
+    width:100%;
 }
 
+.skil {
+    width: 60%;
+    margin: 0 auto;
+    list-style: none;
+}
 
+.skil li{
+    text-align:center;
+    border: 1px solid #ddd;
+    width: calc(100%/8);
+    border-radius: 20px;
+    height: 30px;
+    line-height: 30px;
+    float:left;
+    margin-left:10px;
+    margin-bottom:10px;
+}
 
 @media (min-width: 576px) {
     .text {
